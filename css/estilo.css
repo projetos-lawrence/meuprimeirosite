@@ -95,3 +95,16 @@ a:link {
   a:active {
     color: blue;
   }
+
+  .ani{
+margin-top: 2%;
+    width: 300px;
+    height: 800px;
+    margin-bottom: 2%;
+    background-color: cadetblue;
+    transition: width 2s;
+  }
+
+  .ani:hover{
+    width: 800px;
+  }
